@@ -63,6 +63,7 @@ class User(AbstractUser):
 
     class Meta:
         ordering = ["username"]
+        # app_label = "user_db"
 
     def save(self, *args, **kwargs):
         if not self.slug:

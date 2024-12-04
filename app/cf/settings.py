@@ -75,10 +75,10 @@ DATABASES = {
     },
     "user_db": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "users",
+        "NAME": "users_db",
         "USER": "users",
         "PASSWORD": "users",
-        "HOST": "users",
+        "HOST": "10.137.8.2",
         "PORT": "5432",
     },
 }
