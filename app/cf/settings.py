@@ -75,7 +75,7 @@ DATABASES = {
     },
     "user_db": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "users_db",
+        "NAME": "user_db",
         "USER": "users",
         "PASSWORD": "users",
         "HOST": "10.137.8.2",
